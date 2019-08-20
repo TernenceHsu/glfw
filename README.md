@@ -42,13 +42,13 @@ guide](http://www.glfw.org/docs/latest/moving.html) for moving to the GLFW
 
 ## Compiling GLFW
 build dynamic library:
-'''
+```
 cmake -DBUILD_SHARED_LIBS=ON .
-'''
+```
 build static library:
-'''
+```
 cmake .
-'''
+```
 
 GLFW itself requires only the headers and libraries for your OS and window
 system.  It does not need the headers for any context creation API (WGL, GLX,
